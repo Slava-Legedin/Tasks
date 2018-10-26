@@ -42,19 +42,9 @@ public class Tasks {
         }
         crclArea = pi * radius * radius;
         System.out.println(crclArea);
-        //return sqArea;
+
     }
 
-    /*public static double circleArea() throws Exception{
-        Scanner read = new Scanner(System.in);
-        double crclArea;
-        try { radius = read.nextDouble();}
-        catch (Exception e) {
-            System.out.println("Only digits are acceptable!");
-        }
-        crclArea=pi*radius*radius;
-        return crclArea;
-    }*/
     private static boolean isSqInCircle() {
         return Math.sqrt(2) * side < radius * 2;
     }
